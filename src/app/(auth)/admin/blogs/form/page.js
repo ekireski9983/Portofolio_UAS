@@ -27,7 +27,6 @@ export default function AdminBlogsForm() {
     }
     const kategori = [
         {label:'React Js', value:'React Js'},
-        {label:'React Js', value:'React Js'},
         {label:'React Native', value:'React Native'},
         {label:'Vlue.js', value:'Vlue.js'},
         {label:'Web Pemograman', value:'Web Pemograman'},
@@ -111,7 +110,7 @@ export default function AdminBlogsForm() {
                 <label>Content</label>
                 <Editor
                     id='content'
-                    apiKey='9cwimxs87anry0u2avnf1wswmlg849552261vhxbl2qb8qkw'
+                    apiKey='hz9os6h0p1826jcqknks4q1fm8yl9khctaa7nmexkf0rnx2e'
                     onInit={(_evt, editor) => editorRef.current = editor}
                     initialValue={data.content}
                     init={{
